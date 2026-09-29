@@ -1,0 +1,39 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+/templete/
+
+# Credential hasil catatan manual - tidak boleh masuk repo.
+# Sumber credential development ada di database/seeders/UserSeeder.php.
+akun*.txt
+*.credential
+
+# Catatan status implementasi - dokumen kerja lokal, tidak ikut versioning.
+# Di-untrack pada commit "chore: untrack IMPLEMENTATION_STATUS.md and ignore it".
+# Catatan: .gitignore tidak berlaku retroaktif, jadi file yang sudah pernah
+# ter-track harus dilepas dengan `git rm --cached` lebih dulu.
+# Slash di depan membatasi aturan ini hanya ke file root, bukan ke file
+# bernama sama di dalam subfolder.
+/IMPLEMENTATION_STATUS.md
